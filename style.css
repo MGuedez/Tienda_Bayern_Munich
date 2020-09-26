@@ -48,10 +48,22 @@ body {
     font-size: 13px;
 } 
 
-.sponsor--logo {
-    width: 50%;
-}
-
 .sponsor--logo img {
     width: 50px;
+}
+
+.nav {
+    width: 200px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav > li {
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.nav .icons {
+    width: 23px;
 }
