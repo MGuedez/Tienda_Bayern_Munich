@@ -136,7 +136,7 @@ body {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -145,23 +145,34 @@ footer {
     background-color: #ce1429;
 }
 
+.content--footer {
+    display: flex;
+    align-items: center;
+}
 
-.description--social--networks {
+.description--social--networks,
+.payment-description {
     font-size: 14px;
     font-weight: 400;
     color: #fff;
 }
 
-.social--networks {
+.social--networks,
+.payment {
     list-style: none;
     cursor: pointer;
 }
 
-.social--networks > li {
+.social--networks > li,
+.payment > li {
     display: inline-block;
     padding-left: 15px;
 }
 
 .social--networks .social-icons {
     width: 25px;
+}
+
+.payment .payment-icons {
+    width: 35px;
 }
