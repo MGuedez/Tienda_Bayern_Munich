@@ -27,3 +27,23 @@ body {
 .logo, img {
     width: 70px;
 }
+
+.store--name {
+    position: absolute;
+    left: 110px;
+}
+
+.store-name--title,
+.store--name--subtitle {
+    text-transform: uppercase;
+    color: #fff;
+} 
+
+.store-name--title {
+    font-size: 18px;
+    font-weight: 500;
+} 
+
+.store--name--subtitle {
+    font-size: 13px;
+} 
