@@ -47,3 +47,11 @@ body {
 .store--name--subtitle {
     font-size: 13px;
 } 
+
+.sponsor--logo {
+    width: 50%;
+}
+
+.sponsor--logo img {
+    width: 50px;
+}
